@@ -1,0 +1,46 @@
+body, nav, dl, dd, main, section, figure, img {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    padding-bottom: 4rem;
+}
+nav {
+    padding: 2rem 0;
+}
+dl {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+dd {
+    cursor: pointer;
+    border: 1px solid grey;
+    padding: 0.6rem 1rem;
+    margin: 1rem 0.5rem;
+    border-radius: 30px;
+}
+dd:hover {
+    background-color: #294cfe;
+    color: white;
+}
+main {
+    display: flex;
+    flex-flow: row nowrap;
+}
+section {
+    width: 30% !important;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+figure {
+    width: 100%;
+}
+img {
+    width: 100%;
+}

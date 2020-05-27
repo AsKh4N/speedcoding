@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Speed Coding</title>
+</head>
+<body>
+    <nav>
+        <dl>
+            <dd class="filter all" onclick="test('all')">All</dd>
+            <dd class="filter art" onclick="test('art')">Art</dd>
+            <dd class="filter graphic" onclick="test('graphic')">Graphic design</dd>
+            <dd class="filter hard" onclick="test('hard')">Hard press</dd>
+            <dd class="filter office" onclick="test('office')">Offices</dd>
+            <dd class="filter packaging" onclick="test('packaging')">Packaging</dd>
+            <dd class="filter shopping" onclick="test('shopping')">Shopping</dd>
+        </dl>
+    </nav>
+    <main class="main">
+        <section class="left">
+            <figure class="figure shopping">
+                <img src="./assets/left-1.jpg" alt="">
+            </figure>
+            <figure class="figure art">
+                <img src="./assets/left-2.jpg" alt="">
+            </figure>
+            <figure class="figure office">
+                <img src="./assets/left-3.jpg" alt="">
+            </figure>
+        </section>
+        <section>
+            <figure class="figure graphic">
+                <img src="./assets/middle-1.jpg" alt="">
+            </figure class="figure graphic">
+            <figure>
+                <img src="./assets/middle-2.jpg" alt="">
+            </figure>
+            <figure class="figure graphic">
+                <img src="./assets/middle-3.jpg" alt="">
+            </figure>
+            <figure class="figure graphic">
+                <img src="./assets/middle-4.jpg" alt="">
+            </figure>
+        </section>
+        <section>
+            <figure class="figure graphic">
+                <img src="./assets/right-1.jpg" alt="">
+            </figure>
+            <figure class="figure office">
+                <img src="./assets/right-2.jpg" alt="">
+            </figure>
+            <figure class="figure graphic">
+                <img src="./assets/right-3.jpg" alt="">
+            </figure>
+            <figure class="figure art">
+                <img src="./assets/right-4.jpg" alt="">
+            </figure>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
